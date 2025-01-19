@@ -1,0 +1,174 @@
+/* 
+-----------Style electronics Page------------ */
+
+
+.Electronics{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.Electronics-1{
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+
+.Electronics-1 h1{
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.Electronics-1 input{
+    height: 50px;
+    width: 300px;
+    margin-top: 20px;
+    border: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.Electronics-2{
+   
+    width: 60vw;
+}
+
+
+
+
+.Electronics-2-1 img{
+   height: 140px;
+}
+
+.Electronics-2-1 h2{
+    font-size: 20px;
+ }
+ 
+ 
+
+
+.Electronics-2-1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.Electronics-2-2{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+
+
+.card-main{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    width: 220px;
+    height: 220px;
+    border-radius: 16px ;
+    position: relative;
+}
+
+.card-main img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 16px ;
+}
+
+
+.card-main > .add-sign{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+.card-p{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: white;
+    padding-left: 5px;
+    height: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    align-content: center;
+    
+}
+
+.card-text{
+   margin-top: 5px;
+    height: 30px;
+    position: relative;
+}
+
+.card-text > p{
+    position: absolute;
+    left: 10px;
+    top: 50;
+    bottom: 50;
+    font-size: 16px;
+}
+
+
+.card-text > h1{
+    position: absolute;
+    right: 10px;
+    top: 50;
+    bottom: 50;
+    font-size: 18px;
+}
+
+.Electronics{
+    position: relative;
+}
+
+.details{
+    position: absolute;
+    right: 0;
+    width: 300px;
+    border: 1px solid;
+    height: 95vh;
+    border-radius: 10px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+.details img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.details > .cross-sign{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+
+
+

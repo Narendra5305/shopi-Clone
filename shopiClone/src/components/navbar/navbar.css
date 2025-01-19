@@ -1,0 +1,147 @@
+/* ---------- style navbar-------------- */
+
+.cart-logo{
+    height: 30px;
+}
+
+
+.navbar{
+    height: 7vh;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(181, 181, 181, 0.24) 0px 1px 2px;
+}
+
+.navlist-1 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.navlist-1 > ul li:nth-child(1){
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight:400;
+    letter-spacing: 1px;
+}
+
+.navlist-1  > ul li{
+    font-size: 14px;
+    color: rgb(44, 44, 44);
+}
+
+
+.navlist-2  > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.navlist-2 > ul li:nth-child(1){
+    font-size: 14px;
+    color: rgb(137, 137, 137);
+}
+
+
+
+
+.navlist-2  > ul li{
+    font-size: 14px;
+    color: rgb(44, 44, 44);
+}
+
+.nav-menu-2 {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+
+
+.nav-item {
+    cursor: pointer;
+}
+
+
+.hamburger {
+    display:none;
+}
+
+
+
+.hamburger ul> li img {
+    height: 20px;
+}
+
+.nav-menu-2 li:nth-child(4){
+    display: flex;
+    gap: 10px;
+}
+
+
+.nav-menu-2 li:nth-child(4) span{
+    font-size: 20px;
+}
+
+.checkOutCont{
+    background-color: white;
+    position: absolute;
+    top: 7vh;
+    right: 0vw;
+    height: 92vh;
+    border: 1px solid;
+    width: 300px;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width: 48rem) {
+
+   
+    .nav-menu-2 {
+        display: none;
+        flex-direction: column;
+        gap: 0.5em;
+        background-color: #ffffff;
+        position: absolute;
+        top: 66px;
+        right: 10px;
+        width: 200px;
+        padding: 1em;
+        border-radius: 5px;
+        z-index: 1000;
+        opacity: 0;
+        transform: translateY(-10px);
+        transition: opacity 0.3s ease, transform 0.3s ease;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(131, 131, 131, 0.15) 0px 2px 6px 2px;
+    }
+
+    .navlist-2.open .nav-menu-2 {
+        display: flex;
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+   
+    .hamburger {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .navlist-1 > ul li:nth-child(1){
+        display: none;
+    }
+    
+    
+}
